@@ -8,17 +8,51 @@ This project aims to analyze and predict hiring decisions using a logistic regre
 
 The dataset consists of the following columns:
 
-- **Age**: The age of the candidate.
-- **Gender**: The gender of the candidate (1 for female, 0 for male).
-- **EducationLevel**: The highest education level attained by the candidate.
-- **ExperienceYears**: The number of years of relevant work experience the candidate has.
-- **PreviousCompanies**: The number of companies the candidate has worked for previously.
-- **DistanceFromCompany**: The distance (in kilometers) from the candidate's residence to the company.
-- **InterviewScore**: The score obtained by the candidate in the interview.
-- **SkillScore**: The score reflecting the candidate's technical skills.
-- **PersonalityScore**: The score reflecting the candidate's personality traits.
-- **RecruitmentStrategy**: The strategy used to recruit the candidate (1, 2, 3; higher numbers indicate less effective strategies).
-- **HiringDecision**: The final hiring decision (1 for hired, 0 for not hired).
+### Variables Description
+
+- **Age**:
+  - Data Range: 20 to 50 years
+  - Data Type: Integer
+
+- **Gender**:
+  - Categories: Male (0) or Female (1)
+  - Data Type: Binary
+
+- **Education Level**:
+  - Categories: 1: Bachelor's (Type 1), 2: Bachelor's (Type 2), 3: Master's, 4: PhD
+  - Data Type: Categorical
+
+- **Experience Years**:
+  - Data Range: 0 to 15 years
+  - Data Type: Integer
+
+- **Previous Companies Worked**:
+  - Data Range: 1 to 5 companies
+  - Data Type: Integer
+
+- **Distance From Company**:
+  - Data Range: 1 to 50 kilometers
+  - Data Type: Float (continuous)
+
+- **Interview Score**:
+  - Data Range: 0 to 100
+  - Data Type: Integer
+
+- **Skill Score**:
+  - Data Range: 0 to 100
+  - Data Type: Integer
+
+- **Personality Score**:
+  - Data Range: 0 to 100
+  - Data Type: Integer
+
+- **Recruitment Strategy**:
+  - Categories: 1: Aggressive, 2: Moderate, 3: Conservative
+  - Data Type: Categorical
+
+- **Hiring Decision (Target Variable)**:
+  - Categories: 0: Not hired, 1: Hired
+  - Data Type: Binary (Integer)
 
 ## Exploratory Data Analysis (EDA)
 
