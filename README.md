@@ -58,7 +58,7 @@ The dataset consists of the following columns:
 
 ### Correlation Analysis
 
-We begin with a correlation analysis to identify relationships between the features and the target variable (Hiring Decision). This helps in understanding which factors are most influential in the hiring process.
+I begin with a correlation analysis to identify relationships between the features and the target variable (Hiring Decision). This helps in understanding which factors are most influential in the hiring process.
 
 ### Age and Hiring Decision
 
@@ -66,14 +66,14 @@ Analyzing the distribution of ages and their impact on the hiring decision can r
 
 ### Experience Years and Hiring Decision
 
-Similarly, we explore the relationship between the number of years of experience and the likelihood of being hired. Scatter plots and line graphs help visualize this relationship.
+Similarly, I explore the relationship between the number of years of experience and the likelihood of being hired. Scatter plots and line graphs help visualize this relationship.
 
 ## Predictive Modeling
 
 ### Logistic Regression
 
-We employ a logistic regression model to predict the hiring decision. The logistic regression model is suitable for binary classification problems like this one, where the target variable (Hiring Decision) has two possible outcomes: hired or not hired.
+I employ a logistic regression model to predict the hiring decision. The logistic regression model is suitable for binary classification problems like this one, where the target variable (Hiring Decision) has two possible outcomes: hired or not hired.
 
 ### Hyperparameter Tuning
 
-To optimize the model, we use GridSearchCV to perform hyperparameter tuning. The parameters tuned include the regularization penalty (`'penalty'`: `'l1'`, `'l2'`) and the regularization strength (`'C'`: `[0.01, 0.1, 1, 10, 100]`).
+To optimize the model, I use GridSearchCV to perform hyperparameter tuning. The parameters tuned include the regularization penalty (`'penalty'`: `'l1'`, `'l2'`) and the regularization strength (`'C'`: `[0.01, 0.1, 1, 10, 100]`).
