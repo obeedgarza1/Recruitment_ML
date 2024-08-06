@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project aims to analyze and predict hiring decisions using a logistic regression model. We explore various factors that might influence the hiring decision, including age, gender, education level, years of experience, previous companies, distance from the company, interview score, skill score, personality score, and recruitment strategy.
+This project aims to analyze and predict hiring decisions using a logistic regression model. I explore various factors that might influence the hiring decision, including age, gender, education level, years of experience, previous companies, distance from the company, interview score, skill score, personality score, and recruitment strategy.
 
 ## Data Description
 
